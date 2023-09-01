@@ -10,7 +10,7 @@ print(folder)
 messages = 0
 empty = 0
 runs = 0
-with open("demofile2.txt", "w", encoding="utf8") as demo:
+with open("discordMessages.txt", "w", encoding="utf8") as demo:
     for root, dirs, files in os.walk(folder):
         if ("messages.csv" in files):
             with open(os.path.join(root, "messages.csv"), 'r', encoding="utf8") as f:
