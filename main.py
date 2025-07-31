@@ -1,7 +1,7 @@
 import os
 import csv
         
-input = r"C:\Users\Carter\Desktop\!Downloads\Data - Google+Discord 8-2022\package"
+input = r"C:\Discord\Package\Path"
 
 folder = os.path.join(input, "messages")
 
